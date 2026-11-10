@@ -1,0 +1,18 @@
+# --- Student-level data (contains PII): never commit ---
+data/source/KPI - Student Level Report*
+*Student Level Report*
+*Student_Level_Report*
+*KPI_-_Student_Level*
+
+# --- Secrets (database passwords etc. go in Streamlit Cloud's Secrets setting, not GitHub) ---
+.streamlit/secrets.toml
+
+# --- Working files ---
+Claude outputs/
+
+# --- Python and PyCharm ---
+__pycache__/
+*.pyc
+.venv/
+venv/
+.idea/
